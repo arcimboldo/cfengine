@@ -564,6 +564,7 @@ AS_IF([test "x$enable_static_build" = "xyes"], [
     static_build='yes'
     STATIC_LDFLAGS="-all-static"
     STATIC_LIBS="-lm -lz -lbz2 -ldl"
+    enable_static="yes"
 ])
 
 dnl ######################################################################
